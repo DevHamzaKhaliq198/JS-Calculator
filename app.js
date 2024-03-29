@@ -1,0 +1,56 @@
+document.getElementById("seven").onclick=function(){
+    document.getElementById("result").innerHTML+="7"
+}
+document.getElementById("eight").onclick=function(){
+    document.getElementById("result").innerHTML+="8"
+}
+document.getElementById("nine").onclick=function(){
+    document.getElementById("result").innerHTML+="9"
+}
+document.getElementById("six").onclick=function(){
+    document.getElementById("result").innerHTML+="6"
+}
+document.getElementById("five").onclick=function(){
+    document.getElementById("result").innerHTML+="5"
+}
+document.getElementById("four").onclick=function(){
+    document.getElementById("result").innerHTML+="4"
+}
+document.getElementById("three").onclick=function(){
+    document.getElementById("result").innerHTML+="3"
+}
+document.getElementById("two").onclick=function(){
+    document.getElementById("result").innerHTML+="2"
+}
+document.getElementById("one").onclick=function(){
+    document.getElementById("result").innerHTML+="1"
+}
+document.getElementById("zero").onclick=function(){
+    document.getElementById("result").innerHTML+="0"
+}
+document.getElementById("doubleZero").onclick=function(){
+    document.getElementById("result").innerHTML+="00"
+}
+document.getElementById("decimal").onclick=function(){
+    document.getElementById("result").innerHTML+="."
+}
+document.getElementById("divide").onclick=function(){
+    document.getElementById("result").innerHTML+="/"
+}
+document.getElementById("multiply").onclick=function(){
+    document.getElementById("result").innerHTML+="*"
+}
+document.getElementById("subtract").onclick=function(){
+    document.getElementById("result").innerHTML+="-"
+}
+document.getElementById("add").onclick=function(){
+    document.getElementById("result").innerHTML+="+"
+}
+
+document.getElementById("del").onclick=function(){
+document.getElementById("result").innerHTML=document.getElementById("result").innerHTML.toString().slice(0,-1);
+}
+document.getElementById("equal").onclick=function(){
+    document.getElementById("result").innerHTML=eval(document.getElementById("result").innerHTML)
+    }
+
